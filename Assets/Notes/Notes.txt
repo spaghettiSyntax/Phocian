@@ -1,0 +1,89 @@
+﻿Realm Rush Review Notes
+
+Lesson 1: Introduction - Realm Rush
+
+Lesson 2: Realm Rush Game Design
+
+Lesson 3: Grid Snapping
+
+Lesson 4: Text Labels
+
+Lesson 5: Coordinate System
+
+	// Time: 0:04 - 0:22 Black Screen
+
+Lesson 6: Lists
+
+Lesson 7: Introducing Coroutines
+
+	// Time: 11:11 Screen fades to black and lecture ends before the instructor is done speaking.
+
+Lesson 8: Importing Assets
+
+	// Issue: Need to request access to Google Drive for assets. 
+	// Maybe just because we're in review?
+
+	// Quality of life improvement: The fix introduced in the Discussion section of this 
+	// lecture by Brian does work. However, it does require adding the following using - 
+
+	using UnityEditor.Experimental.SceneManagement;
+
+	// If there is a way to retroactively have this added to a previous, or this,
+	// lecture I think that would be beneficial to the beginner programmer.
+
+Lesson 9: Prefab Variants
+
+	// Time: 13:31 Lecture ends before the instructor is done speaking.
+
+Lesson 10: Smooth Enemy Movement
+
+Lesson 11: Detect Mouse Input
+
+Lesson 12: Targeting Enemies
+
+Lesson 13: Damaging Enemies
+
+Lesson 14: Debugging Tools
+
+Lesson 15: Find the Path
+
+Lesson 16: Instatiating Enemies
+
+Lesson 17: Object Pools
+
+Lesson 18: Target Closest Enemy
+
+Lesson 19: Currency System (Part 1)
+
+Lesson 20: Currency System (Part 2)
+
+Lesson 21: UI Text
+
+	// Time: 3:17 Instructor mentions that a font has been attached as a resource,
+	// but there is no resource attached.
+
+Lesson 22: Increasing Difficulty
+
+Lesson 23: Refactoring
+
+Lesson 24: Playtest and Balance
+
+Lesson 25: Review and Reflect
+
+Lesson 26: Pathfinding Decisions
+
+Lesson 27: Breadth First Search
+
+Lesson 28: Pure C# Classes
+
+	// Time: 6:59 Misspelled coordinates parameter as coodinates.
+
+Lesson 29: Dictionaries
+
+Lesson 30: More Debugging Tools
+
+Lesson 31: Exploring Neighbors
+
+
+
+
