@@ -84,6 +84,15 @@ Lesson 30: More Debugging Tools
 
 Lesson 31: Exploring Neighbors
 
+Lesson 32: Exploring the World
+
+Lesson 37: Broadcast Message
+
+	// Time: 2:10 Misspelled isSuccessful as isSuccussful
+
+	// Issue: A slight bug with my first Instantiated enemy always keep first 
+	// route to castle.
+
 
 
 

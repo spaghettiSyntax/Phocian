@@ -1,10 +1,5 @@
-﻿/// <WARNING>
-/// This script MUST be placed in the Editor folder prior to building for release.
-/// </WARNING>
-
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
-//using UnityEditor.Experimental.SceneManagement;
 
 // ExecuteAlways will let us see code changes in Runtime and Editor modes
 [ExecuteAlways]
@@ -14,7 +9,8 @@ public class CoordinateLabeler : MonoBehaviour
     [SerializeField] private Color defaultColor = Color.white;
     [SerializeField] private Color blockedColor = Color.gray;
     [SerializeField] private Color exploredColor = Color.yellow;
-    [SerializeField] private Color pathColor = new Color(1f, 0.5f, 0f); // Orange color
+    [SerializeField] private Color pathColor = Color.magenta;
+    //[SerializeField] private Color pathColor = new Color(1f, 0.5f, 0f); // Orange color
 
     private TextMeshPro label;
     private Vector2Int coordinates = new Vector2Int();
@@ -97,10 +93,10 @@ public class CoordinateLabeler : MonoBehaviour
 
     private void DisplayCoordinates()
     {
-        // You cannot build a game with UnityEditor code built in
-        coordinates.x = Mathf.RoundToInt(transform.parent.position.x / UnityEditor.EditorSnapSettings.move.x);
-        // Grabbing the y coord is actually the 2D x -> zed position due to 3D space
-        coordinates.y = Mathf.RoundToInt(transform.parent.position.z / UnityEditor.EditorSnapSettings.move.z);
+        if (gridManager == null) { return; }
+
+        coordinates.x = Mathf.RoundToInt(transform.parent.position.x / gridManager.UnityGridSize);
+        coordinates.y = Mathf.RoundToInt(transform.parent.position.z / gridManager.UnityGridSize);
 
         label.text = coordinates.x + "," + coordinates.y;
     }

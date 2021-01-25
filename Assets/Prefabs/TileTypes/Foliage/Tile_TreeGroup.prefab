@@ -121,6 +121,10 @@ PrefabInstance:
       value: Tile_TreeGroup
       objectReference: {fileID: 0}
     - target: {fileID: 2515485141356283530, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515485141356283530, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
       propertyPath: m_fontColor.b
       value: 0.5
       objectReference: {fileID: 0}
@@ -131,6 +135,26 @@ PrefabInstance:
     - target: {fileID: 2515485141356283530, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
       propertyPath: m_fontColor.r
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515485141356283530, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4286611584
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877354365321960959, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
+      propertyPath: pathColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877354365321960959, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
+      propertyPath: pathColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877354365321960959, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
+      propertyPath: exploredColor.b
+      value: 0.015686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877354365321960959, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
+      propertyPath: exploredColor.g
+      value: 0.92156863
       objectReference: {fileID: 0}
     - target: {fileID: 2992151813493231571, guid: 763119f39b9f4084783e2bdce9c15546, type: 3}
       propertyPath: isPlaceable
